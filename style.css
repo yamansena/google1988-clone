@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    max-width: 114rem;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .section{
+    background-color:#EEE ;
+    width: 80%;
+}
+
+.container .section p{
+    text-align: center;
+}
+
+.container .section .section-search,.btn{
+    text-align: center;
+}
+
+.container .section .btn{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+.container .section .btn a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 1px;
+    margin: 2px;
+    font-size: 14px;
+}
+
+.section input[type="search"]{
+    width: 50%;
+}
+
+.section-2{
+    width: 80%;
+    display: flex;
+}
+
+.section-2 .col-1{
+    background-color:#70CCC2 ;
+    text-align: center;
+    margin: 1px;
+    border-spacing:2px ;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.section-2 .col-1 a:visited{
+    color: blue;
+}
+
+.section-2 .col-2{
+    background-color:#70CCC2 ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-top: 5px;
+    margin-top: 2px;
+   
+}
+
+.section-2 .col-2 a{
+    font-size: 12px;
+    
+}
+
+.section-2 .col-2 a:visited{
+    color: blue;
+}
+
+.section-2 .col-3{
+    background-color:#70CCC2 ;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 1px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-2 .col-3 p{
+    text-align: center;
+    font-size: 14px;
+    
+   
+}
+
+.section-2 .col-3 input[type="email"]{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 .col-3 .col-3-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 .col-3 .col-3-btn .subscribe{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: #EEE;
+    font-size: 14px;
+    padding: 2px;
+    margin-right: 10px;
+
+}
+
+.section-2 .col-3 .col-3-btn .arch{
+    font-size: 12px;
+}
+
+.footer p{
+    margin-top: 1rem;
+    font-size: small;
+
+}
